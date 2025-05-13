@@ -1,0 +1,15 @@
+[package]
+name = "word_similarity_rs"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "word_similarity_rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.22.0", features = ["extension-module"] }
+
+[package.metadata.pyo3]
+# Use the interpreter selected via PYTHON_SYS_EXECUTABLE
+bindings = "pyo3"
