@@ -1,0 +1,9 @@
+[project]
+name = "word_similarity_training"
+version = "0.1.0"
+dependencies = [
+    "scikit-learn>=1.5.0",
+    "numpy>=1.24.0",
+    "tqdm>=4.66.0"
+]
+requires-python = ">=3.9"
